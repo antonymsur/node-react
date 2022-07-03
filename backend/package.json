@@ -1,0 +1,38 @@
+{
+  "name": "node-react-backend",
+  "version": "0.0.1",
+  "description": "Sample Node Express Backend Service",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "coveragePathIgnorePatterns": [
+      "/node_modules/"
+    ]
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "mongodb",
+    "rest",
+    "api",
+    "react"
+  ],
+  "author": "antony",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "mongoose": "^6.4.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "jest": "^28.1.2",
+    "superagent": "^8.0.0",
+    "supertest": "^6.2.4"
+  }
+}
